@@ -7,49 +7,23 @@
              x:Class="Tarea2CArtieda.MainPage">
 
     <StackLayout>
-
-        <Label Text="Sistema de Calificaciones UISRAEL" HorizontalTextAlignment="Center" TextColor="Black" FontSize="25">
+        <Label Text="Semana 3">
         </Label>
 
-        <Entry x:Name="txtDato1" Keyboard="Numeric"
-               Placeholder="Ingrese la Nota del Seguimiento 1">
+        <Entry x:Name="txtUser"
+               Placeholder="Ingrese el Usuario: ">
         </Entry>
 
-        <Entry x:Name="txtDato2" Keyboard="Numeric"
-               Placeholder="Ingrese la nota del Examen 1">
+        <Entry x:Name="txtPass"
+               Placeholder="Ingrese el Password: "
+               IsPassword="True">
         </Entry>
 
-        <Entry x:Name="txtResultado" IsReadOnly="True"
-               Placeholder="Resultado Nota Parcial 1">
-        </Entry>
-        
-        <Button x:Name="btnSumar" Text="Calcular Nota Parcial 1"
-                Clicked="btnSumar_clicked">
+        <Button x:Name="btnAbrirVistaDos"
+                    Text="Iniciar Sesión"
+                    Clicked="btnAbrirVistaDos_clicked">
         </Button>
 
-        <Entry x:Name="txtDato3" Keyboard="Numeric"
-               Placeholder="Ingrese la Nota del Seguimiento 2">
-            </Entry>
-
-        <Entry x:Name="txtDato4" Keyboard="Numeric"
-               Placeholder="Ingrese la nota del Examen 2">   
-        </Entry>
-
-        <Entry x:Name="txtResultado2" IsReadOnly="True"
-               Placeholder="Resultado Nota Parcial 2">
-        </Entry>
-
-        <Button x:Name="btnSumar2" Text="Calcular Nota Parcial 2"
-                Clicked="btnSumar2_clicked">
-        </Button>
-
-        <Entry x:Name="txtResultado3" IsReadOnly="True"
-               Placeholder="Resultado Nota Final">
-        </Entry>
-
-        <Button x:Name="btnSumar3" Text="Calcular la nota Final"
-                Clicked="btnSumar3_clicked">
-        </Button>
 
     </StackLayout>
 

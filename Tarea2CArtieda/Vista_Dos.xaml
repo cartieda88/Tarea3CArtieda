@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea2CArtieda.Vista_Dos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblUser"  Text="Usuario Conectado "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Sistema de Calificaciones UISRAEL" HorizontalTextAlignment="Center" TextColor="Black" FontSize="25">
+            </Label>
+
+            <Entry x:Name="txtDato1" Keyboard="Numeric"
+               Placeholder="Ingrese la Nota del Seguimiento 1">
+            </Entry>
+
+            <Entry x:Name="txtDato2" Keyboard="Numeric"
+               Placeholder="Ingrese la nota del Examen 1">
+            </Entry>
+
+            <Entry x:Name="txtResultado" IsReadOnly="True"
+               Placeholder="Resultado Nota Parcial 1">
+            </Entry>
+
+            <Button x:Name="btnSumar" Text="Calcular Nota Parcial 1"
+                Clicked="btnSumar_clicked">
+            </Button>
+
+            <Entry x:Name="txtDato3" Keyboard="Numeric"
+               Placeholder="Ingrese la Nota del Seguimiento 2">
+            </Entry>
+
+            <Entry x:Name="txtDato4" Keyboard="Numeric"
+               Placeholder="Ingrese la nota del Examen 2">
+            </Entry>
+
+            <Entry x:Name="txtResultado2" IsReadOnly="True"
+               Placeholder="Resultado Nota Parcial 2">
+            </Entry>
+
+            <Button x:Name="btnSumar2" Text="Calcular Nota Parcial 2"
+                Clicked="btnSumar2_clicked">
+            </Button>
+
+            <Entry x:Name="txtResultado3" IsReadOnly="True"
+               Placeholder="Resultado Nota Final">
+            </Entry>
+
+            <Button x:Name="btnSumar3" Text="Calcular la nota Final"
+                Clicked="btnSumar3_clicked">
+            </Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
